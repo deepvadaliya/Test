@@ -3,96 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern School</title>
+  <title>Modern School Dashboard</title>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="logo">Modern<span>School</span></div>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#admissions">Admissions</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<!-- Floating Bubbles -->
+<div class="bubbles">
+  <span></span><span></span><span></span><span></span><span></span>
+</div>
 
-  <!-- Hero -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Shaping <span>Future Minds</span></h1>
-      <p>Education | Innovation | Excellence</p>
-      <div class="hero-buttons">
-        <a href="#admissions" class="btn primary">Apply Now</a>
-        <a href="#about" class="btn outline">Learn More</a>
-      </div>
+<!-- Navbar -->
+<header class="navbar">
+  <div class="brand">Modern<span>School</span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero Dashboard -->
+<section id="home" class="hero">
+  <div class="hero-box">
+    <h1>Education That Builds the <span>Future</span></h1>
+    <p>A modern learning dashboard for next-gen students</p>
+
+    <div class="actions">
+      <a class="btn primary">Get Started</a>
+      <a class="btn secondary">View Courses</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- About -->
-  <section id="about" class="section about">
-    <h2>About Us</h2>
-    <p>
-      Modern School focuses on academic excellence, innovation, and holistic
-      development. We nurture students to become confident, responsible, and
-      future-ready individuals.
-    </p>
-  </section>
+<!-- Stats Dashboard -->
+<section class="stats">
+  <div class="stat-card">
+    <h2>1500+</h2>
+    <p>Students</p>
+  </div>
+  <div class="stat-card">
+    <h2>80+</h2>
+    <p>Teachers</p>
+  </div>
+  <div class="stat-card">
+    <h2>100%</h2>
+    <p>Success Rate</p>
+  </div>
+</section>
 
-  <!-- Courses -->
-  <section id="courses" class="section courses">
-    <h2>Our Courses</h2>
-    <div class="cards">
-      <div class="card">Science</div>
-      <div class="card">Mathematics</div>
-      <div class="card">Computer Studies</div>
-      <div class="card">Sports & Arts</div>
-    </div>
-  </section>
+<!-- Courses -->
+<section id="courses" class="courses">
+  <h2>Popular Programs</h2>
 
-  <!-- Admissions -->
-  <section id="admissions" class="section admissions">
-    <h2>Admissions Open</h2>
-    <p>Enroll your child for the upcoming academic year</p>
-    <a href="#contact" class="btn primary">Start Registration</a>
-  </section>
+  <div class="course-grid">
+    <div class="course-card">Science & Innovation</div>
+    <div class="course-card">Mathematics</div>
+    <div class="course-card">Computer & AI</div>
+    <div class="course-card">Sports & Creativity</div>
+  </div>
+</section>
 
-  <!-- Gallery -->
-  <section id="gallery" class="section gallery">
-    <h2>Campus Life</h2>
-    <div class="gallery-grid">
-      <img src="https://via.placeholder.com/350x220" alt="">
-      <img src="https://via.placeholder.com/350x220" alt="">
-      <img src="https://via.placeholder.com/350x220" alt="">
-    </div>
-  </section>
+<!-- Contact -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
 
-  <!-- Contact -->
-  <section id="contact" class="section contact">
-    <h2>Get in Touch</h2>
-    <form>
-      <input type="text" placeholder="Full Name" required>
-      <input type="email" placeholder="Email Address" required>
-      <textarea rows="4" placeholder="Your Message"></textarea>
-      <button class="btn primary">Send Message</button>
-    </form>
-  </section>
+  <form>
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message"></textarea>
+    <button class="btn primary">Submit</button>
+  </form>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Modern School | Designed by Deep</p>
-  </footer>
+<footer>
+  © 2025 Modern School • Designed by Deep
+</footer>
 
 </body>
 </html>
